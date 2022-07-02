@@ -364,7 +364,7 @@ kube_kubeadm_apiserver_extra_args:
   service-account-issuer: kubernetes.default.svc
   service-account-signing-key-file: /etc/kubernetes/ssl/sa.key
 ```
-### I have unbound PVCs with rook-ceph.
+### I have unbound PVCs with rook-ceph.
 Note that the rook deployment shipped with ArgoFlow requires a HA setup with at least 3 nodes.
 
 Make sure, that there is a clean partition or drive available for rook to use. 
